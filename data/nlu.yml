@@ -29,6 +29,7 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - shut the fuck up
 
 - intent: affirm
   examples: |
@@ -89,3 +90,30 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+  
+- intent: buy_car
+  examples: |
+    - I would like to buy a car
+    - I want to buy a car
+    - I want to purchase a vehicle
+    - what are some good cars
+    - What cars would you recommend?
+    - Can you recommend me a vehicle
+    - I wanna buy a truck
+    - I wanna buy and SUV
+    - I would like to purchase a sedan
+    - Can I buy a car
+    - would you help me purchase a truck
+    - can you get me a good deal on a car?
+    - Do you have any good value vehicles?
+- intent: mpg
+examples: |
+    - i would like [38](MPG) MPG
+    - I want to find a car with [44](MPG) Miles per gallon
+    - 
+- synonym: MPG
+  examples: |
+    - milage
+    - miles per gallon
+    - MPG
+    
